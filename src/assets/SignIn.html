@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Profil</title>
+</head>
+
+<body>
+ 
+<main class="signup_form">
+    <h1>O'délices - Création de compte</h1>
+
+    <img src="./images/John.jpg" alt="picture profile">
+    
+    <form method="POST" action="traitement_formulaire.php">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required  placeholder="Entrez votre émail"> <br>
+
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password" required  placeholder="Entrez votre mot de passe"><br>
+
+    <label for="confirm_password">Confirmer le mot de passe :</label>
+    <input type="password" id="confirm_password" name="confirm_password" required placeholder="Confirmez votre votre mot de passe"><br>
+
+    <label for="pseudo">Pseudo :</label>
+    <input type="text" id="pseudo" name="pseudo" required placeholder="Entrer votre pseudo"><br>
+
+    <input type="submit" value="Créer un compte">
+    </form>
+</body>
+
+</html>
